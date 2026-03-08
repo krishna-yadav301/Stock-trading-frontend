@@ -1,0 +1,32 @@
+:root{
+    --primary-color: white;
+    --secondary-color: white;
+    --background-color: #F5F5F5;
+    --text-color: #333333;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}   
+.dashboard{
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar{
+    width: 250px;
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: white;
+    display:flex;
+    flex-direction: column; 
+    position:fixed;
+    height:100%;
+    border-right: 1px solid #000;
+}
