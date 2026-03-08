@@ -1,0 +1,36 @@
+ :root {
+    --bg-primary-lol:#202630;
+    --text-color-lol: white;
+    --secondary-lol: #00ff00;
+    --loss-color: red;
+    --profit-color: green;
+ }
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+
+ }
+  body {
+      background-color: var(--bg-primary-lol);
+      color: var(--text-color-lol);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: var(--text-color-lol);
+      margin-bottom: 20px;
+  }
+  .container {
+      background-color: var(--bg-primary-lol);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+  }
